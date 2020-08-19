@@ -19,9 +19,10 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	text-decoration: none;
+	text-align: left;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -29,7 +30,19 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.2;
+}
+body {
+	font-size: 100%;
+}
+h1 {
+	font-size: 200%;
+}
+h3 {
+	font-size: 120%;
+}
+p {
+	font-size: 100%;
 }
 ol, ul {
 	list-style: none;
